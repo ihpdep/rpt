@@ -1,5 +1,5 @@
 # Reliable Patch Trackers: Robust Visual Tracking by Exploiting Reliable Patches (RPT)
-This is the research code of our RPT tracker. It is implemented in matlab code and aimed to academical purpose. Details can be found in our CVPR paper (https://raw.githubusercontent.com/ihpdep/papers/master/cvpr15_rpt.pdf). Please cite our publication if you use the code
+This is the research code of our RPT tracker. It is implemented in matlab code and aimed to academical purpose. Details can be found in our [CVPR paper](https://github.com/ihpdep/ihpdep.github.io/raw/master/papers/cvpr15_rpt.pdf). Please cite our publication if you use the code
 
 ```
 @InProceedings{Li_2015_CVPR,
@@ -12,9 +12,9 @@ year = {2015}
 ```
 
 # Instructions
-1) Modify the base_path in "run_tracker.m" with your own setting if needed.
-2) Run the "run_tracker.m" script in MATLAB.
-3) Choose sequence.
+*1) Modify the base_path in "run_tracker.m" with your own setting if needed.
+*2) Run the "run_tracker.m" script in MATLAB.
+*3) Choose sequence.
 
 
 # Dependencies
