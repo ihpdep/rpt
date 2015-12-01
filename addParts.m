@@ -27,7 +27,7 @@ for i=1:n
     contexts{i}.pos = p;  
     sz=round(par(3:4,i)');
     
-    if prod(sz > [15 15]) > 0 && prod(sz < 0.6*size(im)) > 0
+    if min(sz > [15 15]) > 0 && min(sz < 0.6*size(im)) > 0
         contexts{i}.target_sz =sz; %target_sz - [factor*target_sz(1) factor*target_sz(2)];
     else
         contexts{i}.target_sz = ceil([min(target_sz) min(target_sz)]);

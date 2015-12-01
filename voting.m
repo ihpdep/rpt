@@ -40,7 +40,7 @@ function  [position,target_sz] = voting(pos,target_sz,contexts,scale);%neighborC
         position = psr*points;
 %      pos = pos /nn;
     end
-                    if prod(~isnan(position)) ==0
+                if min(~isnan(position)) == 0
                     position=[0 0];
                 end
 %     [mx,ix]=max(points);
