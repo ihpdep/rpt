@@ -10,7 +10,7 @@ function b=inBox(WinSize,pos,p,rate)
     BoundUR = pos + rate*WinSize/2;
     BoundDL = pos - rate*WinSize/2;
 
-    if prod(p<BoundUR)*prod(  p > BoundDL) ==0
+    if min(p < BoundUR) * min(p > BoundDL) == 0
         b=false;
     else
         b=true;

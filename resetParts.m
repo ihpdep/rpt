@@ -198,7 +198,7 @@ end
 
 function b=outImage(WinSize,p)
 
-    if prod(p<WinSize-[1 1])*prod(  p > [2 2]) >0
+    if min(p < WinSize - [1 1]) * min(p > [2 2]) > 0
         b=false;
     else
         b=true;
