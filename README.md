@@ -32,3 +32,4 @@ Jianke Zhu
 jkzhu@zju.edu.cn
 jkzhu.github.io
 
+[Our Lab website](http://www.smartvisionlab.org)
