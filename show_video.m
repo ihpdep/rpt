@@ -22,7 +22,7 @@ function update_visualization_func = show_video(img_files, video_path, resize_im
 
 	%create window
 	[fig_h, axes_h, unused, scroll] = videofig(num_frames, @redraw, [], [], @on_key_press);  %#ok, unused outputs
-	set(fig_h, 'Number','off', 'Name', ['Tracker - ' video_path])
+	set(fig_h, 'Name', ['Tracker - ' video_path])
 	axis off;
 	
 	%image and rectangle handles start empty, they are initialized later

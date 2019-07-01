@@ -45,7 +45,7 @@
 function [precision, fps] = run_tracker(video, kernel_type, feature_type, show_visualization, show_plots)
 
 	%path to the videos (you'll be able to choose one with the GUI).
-	base_path = '.\data';% You might need to change the path
+	base_path = './data';% You might need to change the path
     addpath('kcf');
 	%default settings
 	if nargin < 1, video = 'choose'; end
